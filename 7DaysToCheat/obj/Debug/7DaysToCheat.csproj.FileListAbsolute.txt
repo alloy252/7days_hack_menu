@@ -1,0 +1,7 @@
+G:\Steam\steamapps\common\7 Days To Die\Mods\7DaysToCheat\obj\Debug\7DaysToCheat.csproj.AssemblyReference.cache
+G:\Steam\steamapps\common\7 Days To Die\Mods\7DaysToCheat\obj\Debug\7DaysToCheat.csproj.CoreCompileInputs.cache
+G:\Steam\steamapps\common\7 Days To Die\Mods\7DaysToCheat\obj\Debug\7DaysToCheat.pdb
+G:\Steam\steamapps\common\7 Days To Die\Mods\7DaysToCheat\7DaysToCheat.pdb
+G:\Steam\steamapps\common\7 Days To Die\Mods\7DaysToCheat\7DaysToCheat.dll.config
+G:\Steam\steamapps\common\7 Days To Die\Mods\7DaysToCheat\obj\Debug\7DaysToCheat.dll
+G:\Steam\steamapps\common\7 Days To Die\Mods\7DaysToCheat\7DaysToCheat.dll
