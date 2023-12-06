@@ -36,7 +36,7 @@ It is written in C# for VS2022.
 The repo uses a single tree release strategy with one release channel.
 Steps on how to use this hack:
 * Go to releases: [![GitHub release](https://img.shields.io/github/release/alloy252/7days_hack_menu?include_prereleases=&sort=semver&color=blue)](https://github.com/alloy252/7days_hack_menu/releases/)
-* Download the latest release.
+* Download the latest release (7DaysToCheat.zip).
 * Unzip the content into your 7DaysToDie installation folder, e.g. C:\Steam\steamapps\common\7 Days To Die\
 * Start the game with EAC turned off.
 
