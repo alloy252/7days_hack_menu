@@ -27,7 +27,7 @@ It is written in C# for VS2022.
     + other vrious nonfunctional stuff like airdrop timer, Animal count, Score Zombie Multiplier, etc.
 
 ## Requirements
-| Operating System | .NET Framework | Installation knowdledge |
+| Operating System | .NET Framework | Installation knowledge |
 | --- | --- | --- |
 | Windows 7 - 11   | 4.8+ | Minimal |
 
