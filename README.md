@@ -39,6 +39,10 @@ Steps on how to use this hack:
 * Download the latest release (7DaysToCheat.zip).
 * Unzip the content into your 7DaysToDie installation folder, e.g. C:\Steam\steamapps\common\7 Days To Die\
 * Start the game with EAC turned off.
+* Join a server.
+* After loading in press the delete button.
+* Pick an option with arrow keys and confirm with keypad´s enter button.
+* If asked pick an amount then press the ok button (see also at the pictures).
 
 ## Credits
 @Speegie : for pointing out how to set up a 7 Days To Die Mod using the ModAPI.
