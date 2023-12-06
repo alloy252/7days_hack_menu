@@ -1,4 +1,4 @@
-<p align="center"><h1>7DaysToDie Mod Menu</h1></p>
+<p align="center"><h1>Headbangers 7DaysToDie Mod Menu</h1></p>
 <p align="center"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.wikia.nocookie.net%2F7daystodie%2Fimages%2F5%2F5e%2FDrugHackers.png%2Frevision%2Flatest%3Fcb%3D20210131082426%26path-prefix%3Dru&f=1&nofb=1&ipt=6db851c3c44f4c97b9665de652ffa0dae272f6b990f58274a03d3f87090d8bb8&ipo=images"></p>
 
 [![GitHub release](https://img.shields.io/github/release/alloy252/7days_hack_menu?include_prereleases=&sort=semver&color=blue)](https://github.com/alloy252/7days_hack_menu/releases/)
