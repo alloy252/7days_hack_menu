@@ -42,7 +42,7 @@ Steps on how to use this hack:
 📁 ~/7 Days To Die\
 ├── 📁Mods\
 │   ├── 📁7DaysToCheat\
-│       └── ![DLL](dll-icon.png) 7DaysToCheat.dll
+│       └──📄 7DaysToCheat.dll
 </pre>
 
 * Start the game with EAC turned off.
