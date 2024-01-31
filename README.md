@@ -43,7 +43,6 @@ Steps on how to use this hack:
 ├── 📁Mods\
 │   ├── 📁7DaysToCheat\
 │       └── ![DLL](https://i.ibb.co/9vVSchb/dll-icon.png)7DaysToCheat.dll
-│   ├── 📁...\
   
 * Start the game with EAC turned off.
 * Join a server.
