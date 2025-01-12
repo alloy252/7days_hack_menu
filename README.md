@@ -8,6 +8,8 @@
 This repository consists of a mod including a hack menu for the game 7DaysToDie.
 It is written in C# for VS2022.
 
+Tired of editing .dll files every update? Look no more. This hack serves as a mod directly integrated in the 7Days ModAPI.
+
 ## Features
 
 * CM / DM menu : Activated on game startup whenever joining any server.
