@@ -10,8 +10,8 @@ namespace _7DaysToCheat {
         private static void GameStartDone() {
             GamePrefs.Set(EnumGamePrefs.CreativeMenuEnabled, true);
             GamePrefs.Set(EnumGamePrefs.DebugMenuEnabled, true);
-            GamePrefs.Set(EnumGamePrefs.EACEnabled, true);
-            GamePrefs.Instance.Save();
+            //GamePrefs.Set(EnumGamePrefs.EACEnabled, true);
+            //GamePrefs.Instance.Save();
             ///////////////////////////////////////////////////////
             //Constants.cDefaultUserPermissionLevel = 0;
             ///////////////////////////////////////////////////////
