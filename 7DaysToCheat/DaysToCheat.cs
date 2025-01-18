@@ -60,6 +60,9 @@ namespace _7DaysToCheat {
                         case 5:
                             helper_xp_multiplier = !helper_xp_multiplier;
                             return;
+                        case 6:
+                            helper_players_on_map = !helper_players_on_map;
+                            return;
                         default:
                             return;
                     }
@@ -76,42 +79,46 @@ namespace _7DaysToCheat {
                 if (selection == 1) { GUI.color = Color.cyan; } 
                 else { GUI.color = Color.white; }
                 if (gui_distance) { GUI.color = Color.green; }
-                GUI.Label(new Rect(10f, 430f, 100f, 50f), "Set dig and build distance");
+                GUI.Label(new Rect(10f, 430f, 200f, 40f), "Set dig and build distance");
 
                 if (selection == 2) {GUI.color = Color.cyan; } 
                 else {GUI.color = Color.white; }
                 if (gui_build_intervall) { GUI.color = Color.green; }
-                GUI.Label(new Rect(10f, 475f, 100f, 40f), "Set build intervall");
+                GUI.Label(new Rect(10f, 460f, 200f, 40f), "Set build intervall");
 
                 if (selection == 3) {GUI.color = Color.cyan; } 
                 else {GUI.color = Color.white; }
                 if (gui_collect_item_distance) { GUI.color = Color.green; }
-                GUI.Label(new Rect(10f, 505f, 100f, 40f), "Set collecting item distance");
+                GUI.Label(new Rect(10f, 490f, 200f, 40f), "Set collecting item distance");
 
                 if (selection == 4) {GUI.color = Color.cyan; } 
                 else {GUI.color = Color.white; }
                 if (gui_collection_of_constants) { GUI.color = Color.green; }
-                GUI.Label(new Rect(10f, 535f, 100f, 40f), "Set a collection of constants");
+                GUI.Label(new Rect(10f, 520f, 200f, 40f), "Set a collection of constants");
 
                 if (selection == 5) {GUI.color = Color.cyan; } 
                 else {GUI.color = Color.white; }
-                GUI.Label(new Rect(10f, 565f, 100f, 40f), "Set XP multiplier");
+                GUI.Label(new Rect(10f, 550f, 200f, 40f), "Set XP multiplier");
 
                 if (selection == 6) {GUI.color = Color.cyan; }
                 else {GUI.color = Color.white; }
-                GUI.Label(new Rect(10f, 595f, 100f, 40f), "TODO Option6");
+                GUI.Label(new Rect(10f, 580f, 200f, 40f), "Show all players on the map");
 
                 if (selection == 7) {GUI.color = Color.cyan; } 
                 else {GUI.color = Color.white; }
-                GUI.Label(new Rect(10f, 625f, 100f, 40f), "TODO Option7");
+                GUI.Label(new Rect(10f, 610f, 200f, 40f), "TODO Option7");
 
                 if (selection == 8) {GUI.color = Color.cyan; } 
                 else {GUI.color = Color.white; }
-                GUI.Label(new Rect(10f, 655f, 100f, 40f), "TODO Option8");
+                GUI.Label(new Rect(10f, 640f, 200f, 40f), "TODO Option8");
 
                 if (selection == 9) {GUI.color = Color.cyan; } 
                 else {GUI.color = Color.white; }
-                GUI.Label(new Rect(10f, 685f, 100f, 40f), "TODO Option9");
+                GUI.Label(new Rect(10f, 670f, 200f, 40f), "TODO Option9");
+
+                if (selection == 10) { GUI.color = Color.cyan; }
+                else { GUI.color = Color.white; }
+                GUI.Label(new Rect(10f, 700f, 200f, 40f), "TODO Option10");
 
                 /////////////////////////////////////////////////////////////////////
                 if (helper_distance) { HelperFunctions.Set_DigAndBuildDistance(); }
@@ -119,10 +126,9 @@ namespace _7DaysToCheat {
                 if (helper_collect_item_distance) { HelperFunctions.Set_CollectItemDistance(); }
                 if (helper_collection_of_constants) { HelperFunctions.Set_Collection_Of_Constants(); }
                 if (helper_xp_multiplier) { HelperFunctions.Set_XP_Multiplier(); }
+                if (helper_players_on_map) { HelperFunctions.Set_ShowAllPlayerOnMap(); }
             }
         }
-
-
 
         public static void ClearGUI() {
             //Example of clearing GUI in case another option has opened to enter a value or something
@@ -140,11 +146,13 @@ namespace _7DaysToCheat {
         public static bool gui_collect_item_distance = false;
         public static bool gui_collection_of_constants = false;
         public static bool gui_xp_multiplier = false;
+        public static bool gui_players_on_map = false;
 
         public static bool helper_distance = false;
         public static bool helper_build_intervall = false;
         public static bool helper_collect_item_distance = false;
         public static bool helper_collection_of_constants = false;
         public static bool helper_xp_multiplier = false;
+        public static bool helper_players_on_map = false;
     }
 }
