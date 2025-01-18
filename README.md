@@ -3,48 +3,55 @@
 
 [![GitHub release](https://img.shields.io/github/release/alloy252/7days_hack_menu?include_prereleases=&sort=semver&color=blue)](https://github.com/alloy252/7days_hack_menu/releases/)
 [![License](https://img.shields.io/github/license/alloy252/7days_hack_menu)](https://opensource.org/licenses/GPL-3.0)
+![Language](https://img.shields.io/badge/language-C%23-green)
+![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.8-blue)
+![Platforms](https://img.shields.io/badge/Platforms-Windows-blue)
 
-## Basic Overview
+## Table of Contents
+1. [Basic Overview and Requirements](#basic-overview-and-requirements)
+    - [Requirements](#requirements)
+    - [Features](#features)
+3. [Installation](#installation)
+4. [Contributing](#contributing)
+
+## Basic Overview and Requirements
+Tired of editing .dll files every update? Look no more. This hack serves as a mod directly integrated in the 7Days ModAPI.
 This repository consists of a mod including a hack menu for the game 7DaysToDie.
 It is written in C# for VS2022.
 
-Tired of editing .dll files every update? Look no more. This hack serves as a mod directly integrated in the 7Days ModAPI.
+### Requirements
+| Operating System | .NET Framework | Installation knowledge |
+| --- | --- | --- |
+| Windows 7 - 11   | 4.8+ | Minimal |
 
-## Features
-
+### Features
 * CM / DM menu : Activated on game startup whenever joining any server.
 * Complete Hack GUI menu when pressing "Delete(Del)" key.
 * Set your dig and build distance via menu
 * Set your Build Intervall
 * Set your collecting item distance
 * Set a collection of constants (unfinished) consisting of:
-
     + dig and build distance to 75
     + build intervall to 0.2
     + sneak damage multiplier to 99
     + collecting item distance to 75
     + max player food and water to 500 (not working)
 * Set your EXP multiplier
-* Show all players on the map regardless of teaming up
-  
+* Show all players on the map regardless of teaming up (seems not to work anymore)
 
-## Requirements
-| Operating System | .NET Framework | Installation knowledge |
-| --- | --- | --- |
-| Windows 7 - 11   | 4.8+ | Minimal |
-
-## Installation - Windows
-
+## Installation
 The repo uses a single tree release strategy with one release channel.
 Steps on how to use this hack:
-* visit MPGH or 
-* Download the latest release (7DaysToCheat.zip) from [MPGH](https://www.mpgh.net/forum/showthread.php?t=1576517&p=15388898#post15388898) or on the release page [![GitHub release](https://img.shields.io/github/release/alloy252/7days_hack_menu?include_prereleases=&sort=semver&color=blue)](https://github.com/alloy252/7days_hack_menu/releases/)
-* Unzip the content into your 7DaysToDie installation folder, e.g. C:\Steam\steamapps\common\7 Days To Die\
+* Download the latest release on the release page [![GitHub release](https://img.shields.io/github/release/alloy252/7days_hack_menu?include_prereleases=&sort=semver&color=blue)](https://github.com/alloy252/7days_hack_menu/releases/)
+* Unzip the content into your 7DaysToDie Mods folder, e.g. C:\Steam\steamapps\common\7 Days To Die\Mods
+* If no Mods folder is available then create one
 <pre>
 📁 ~/7 Days To Die\
 ├── 📁Mods\
 │   ├── 📁7DaysToCheat\
-│       └──📄 7DaysToCheat.dll
+│       ├──📄7DaysToCheat.dll
+│       └──📄Modinfo.xml
+    ...
 </pre>
 
 * Start the game with EAC turned off.
@@ -53,5 +60,7 @@ Steps on how to use this hack:
 * Pick an option with arrow keys and confirm with keypad´s enter button.
 * If asked pick an amount then press the ok button (see also at the pictures).
 
-## Credits
+## Contributing
 @Speegie : for pointing out how to set up a 7 Days To Die Mod using the ModAPI.
+
+Anyone who wants to contribute is welcome. Feel free to provide aditional features and stuff.
