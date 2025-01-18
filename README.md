@@ -13,20 +13,20 @@ Tired of editing .dll files every update? Look no more. This hack serves as a mo
 ## Features
 
 * CM / DM menu : Activated on game startup whenever joining any server.
-* Complete Hack menu when pressing "Delete(Del)" key.
-* Theoretical simulation of EAC. Not really working since its just the checked Game Prefs.
-* Set dig and build distance via menu
-* Set Build Intervall
-* Set collecting item distance
+* Complete Hack GUI menu when pressing "Delete(Del)" key.
+* Set your dig and build distance via menu
+* Set your Build Intervall
+* Set your collecting item distance
 * Set a collection of constants (unfinished) consisting of:
-    + Show all players on the map regardless of teaming up 
-    + dig and build distance to 500
+
+    + dig and build distance to 75
     + build intervall to 0.2
     + sneak damage multiplier to 99
-    + collecting item distance to 99
-    + theoretical max entities per mob spawner to 15 (should be only clientsided)
-    + max player food and water to 500
-    + other vrious nonfunctional stuff like airdrop timer, Animal count, Score Zombie Multiplier, etc.
+    + collecting item distance to 75
+    + max player food and water to 500 (not working)
+* Set your EXP multiplier
+* Show all players on the map regardless of teaming up
+  
 
 ## Requirements
 | Operating System | .NET Framework | Installation knowledge |
